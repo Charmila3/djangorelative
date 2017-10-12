@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "firstapp/relative_template.html" %}
+{% block body_block %}
+    {{ relative_dict|cut:"filter" }}
+    <h1>This is Middle page</h1>
+
+{% endblock %}
